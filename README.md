@@ -99,4 +99,17 @@ You can view and manage the following models:
 4. Uses a clean admin interface for monitoring
 
 It’s designed for real-time financial systems with extendable architecture.
+
+## Run
+  1. python -m venv venv
+  2. .\venv\Scripts\activate
+  3. pip install -r requirements.txt
+  4. python manage.py makemigrations
+  5. python manage.py migrate
+  6. python manage.py runserver
+  7. then chrome has to hit with http://127.0.0.1:8000/admin/
+  8.  id pass has to be (admin) 
+      sagar
+      12345678
+
    
