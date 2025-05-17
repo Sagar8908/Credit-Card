@@ -79,12 +79,24 @@ You can view and manage the following models:
    pip install -r requirements.txt
 
 ## 🧪 API Endpoints (Brief)
-POST /api/register-user/ → Register new user
+-POST /api/register-user/ → Register new user
 
-POST /api/apply-loan/ → Request credit loan
+-POST /api/apply-loan/ → Request credit loan
 
-POST /api/pay-emi/ → Repay EMI amount
+-POST /api/pay-emi/ → Repay EMI amount
 
-GET /api/get-statement/ → See full EMI history
+-GET /api/get-statement/ → See full EMI history
 
+## 📌 Conclusion
+This backend mimics a real-world credit card system. It:
+
+-Automates approval based on credit data
+
+-Generates EMI and bills intelligently
+
+-Tracks all dues & payments
+
+-Uses a clean admin interface for monitoring
+
+-It’s designed for real-time financial systems with extendable architecture.
    
