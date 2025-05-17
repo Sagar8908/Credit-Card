@@ -1,4 +1,4 @@
-# 💳 Credit Card Lending System – Django Backend
+# 💳 Credit Card Lending System – Django Backend IEC2021125 Sagar Das
 
 This project is a backend application built with **Django** to simulate a **credit card system** that helps users borrow money, repay it in installments (EMIs), and get monthly bills. This was developed as part of the **Bright Money Backend Intern Assignment**.
 
@@ -77,3 +77,14 @@ You can view and manage the following models:
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+## 🧪 API Endpoints (Brief)
+POST /api/register-user/ → Register new user
+
+POST /api/apply-loan/ → Request credit loan
+
+POST /api/pay-emi/ → Repay EMI amount
+
+GET /api/get-statement/ → See full EMI history
+
+   
