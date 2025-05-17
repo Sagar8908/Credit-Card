@@ -1,10 +1,10 @@
-# 💳 Credit Card Lending System – Django Backend IEC2021125 Sagar Das
+#  Credit Card Lending System – Django Backend IEC2021125 Sagar Das
 
 This project is a backend application built with **Django** to simulate a **credit card system** that helps users borrow money, repay it in installments (EMIs), and get monthly bills. This was developed as part of the **Bright Money Backend Intern Assignment**.
 
 ---
 
-## 📸 Admin Dashboard Preview
+##  Admin Dashboard Preview
 
 Below is a snapshot of the admin panel:
 
@@ -21,34 +21,34 @@ You can view and manage the following models:
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
-### 1. 🧍‍♂️ User Registration & Credit Score Calculation
+### 1.  User Registration & Credit Score Calculation
 - A user can register with name, Aadhaar number, email, and income.
 - After registration, a **background task** calculates the user's **credit score** using their bank statement data.
 
-### 2. 💰 Loan Approval Based on Credit Score
+### 2.  Loan Approval Based on Credit Score
 - If the user has an income ≥ ₹1.5L and credit score ≥ 450, they are auto-approved.
 - A virtual credit card is issued with a ₹5000 loan balance.
 - EMI plan is created with monthly interest.
 
-### 3. 📥 EMI Payment System
+### 3.  EMI Payment System
 - The system tracks and verifies EMI payments.
 - Payments must follow the correct order and amount.
 - Prevents skipping or partial payments.
 
-### 4. 🧾 Monthly Billing (Automated)
+### 4.  Monthly Billing (Automated)
 - A **cron job** checks daily for users needing a new bill.
 - Adds principal and interest to the statement.
 - Stores the **minimum amount due**.
 
-### 5. 📊 Statement View
+### 5.  Statement View
 - API shows all past and upcoming EMI payments.
 - User gets clear insights into their repayment schedule.
 
 ---
 
-## ⚙️ How It Works (In Simple Terms)
+##  How It Works (In Simple Terms)
 
 1. You register a user.
 2. The system checks your past transactions.
@@ -59,7 +59,7 @@ You can view and manage the following models:
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Tech             | Purpose                            |
 |------------------|-------------------------------------|
@@ -71,14 +71,14 @@ You can view and manage the following models:
 
 ---
 
-## 🔄 Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
-## 🧪 API Endpoints (Brief)
+##  API Endpoints (Brief)
 1. POST /api/register-user/ → Register new user
 
 2. POST /api/apply-loan/ → Request credit loan
@@ -87,7 +87,7 @@ You can view and manage the following models:
 
 4. GET /api/get-statement/ → See full EMI history
 
-## 📌 Conclusion
+##  Conclusion
  This backend mimics a real-world credit card system. It:
 
 1. Automates approval based on credit data
